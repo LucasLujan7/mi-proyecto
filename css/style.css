@@ -1,0 +1,569 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    width: 100%;
+    height: 100vh;
+ }
+
+/* header */
+
+header{
+    background-color:black;
+    height: 140px;
+    width: 100%;
+}
+
+.lisNav{
+    height: 140px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.lisNav li{
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+    text-indent: 100px;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.lisNav li a{
+    text-decoration: none;
+    color: orange;
+}
+
+
+/* Animacion header*/
+
+.lisNav li a:hover{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.homeLogo:hover{
+    transform: scale(1.2);
+    width: 100px;
+    transition: all 0.2s;
+}
+
+/* main*/
+
+.fondo{
+    background-image: url(../assets/img/fondoindex.png);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif; 
+}
+
+.banner{
+    width: 100%;
+}
+
+.burguerHoff h1{
+    font-size: 40px ;
+    padding: 20px;
+    text-align: center;
+}
+
+.burguerHoff p{
+    font-size: 20px ;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    text-align: center;   
+}
+
+.sectionMenu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgMes{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.mes h2{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.mes p{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.imgSor{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.sorteo h2{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.sorteo p{
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.sorteo ul li{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 290px; 
+}
+
+
+/* Hamburguesas*/
+
+.burguerMenu{
+display: grid;
+grid-template-columns:  repeat(2, 1fr);
+grid-auto-rows: repeat (4, 1fr );
+}
+
+.veggie{
+    grid-column: 1 / 3;
+    justify-self: center;
+    align-self: center;
+}   
+
+.burguerMenu article{
+    margin: 10px;
+}
+
+.imgBurguer{
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+    
+}
+
+.textoBurg h5{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.textoBurg p{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.botton1{
+    font-size: 15px ;
+    padding: 5px;
+    background-color: rgba(255, 166, 0, 0.571);
+    text-decoration: none;
+    border: 2px;
+    color: black;
+    border-style: solid;
+    margin: 10px;
+}
+
+/* Animacio hamburguesas*/
+
+.burguerMenu p:hover{
+    transform: scale(1.1);
+    transition: all 0.1s;
+}
+
+/* quienessomos */
+
+
+.quienesSomos h1{
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+.quienesSomos p{
+    font-size: 26px;
+    text-indent: 100px;
+    text-align: center;
+}
+
+.quienesSomosLogo{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 40px;
+    margin-left: 700px;
+}
+
+
+/* Take Away */
+
+.mainTake h1{
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+.mainTake li{
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logos{
+    padding: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logos a img{
+    width: 80px;
+    height: 80px;
+    margin-left: 80px;
+}
+
+/* Animacio Take Away*/
+
+.logos a img:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+
+/* login */
+
+.box {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.usuario{
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    gap: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoLogin h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ingresaIco{
+    margin-right: 20px;
+    background-color: white;
+}
+
+
+.ingresa{
+    margin-bottom: 20px;
+}
+
+.textoLogin div a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(255, 255, 255) ;
+    padding: 9px;
+}
+
+
+
+.completar{
+    text-align: center;
+    padding: 5px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.botton{
+    font-size: 15px;
+    background-color: orange; 
+    padding: 5px;  
+    margin-left: 150px;
+    
+}
+
+/* Animacio Login*/
+
+.ingresa:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+.ingresa2:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+
+.botton:hover{
+    transform: scale(1.2);
+    transition: all 0.2s;
+}
+
+/* Footer*/
+
+footer{
+    width: 100%;
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logoFoot{
+    width: 110px;
+    height: 100px;
+    margin: 10px;
+}
+
+.escribinos{ 
+    font-size: 20px;
+    margin: 20px;
+
+    
+}
+
+.escribinos a img{
+    width: 55px;
+    height: 40px;
+    margin-top: 10px;  
+    margin-left: 150px;
+    
+}
+
+.seguinos p{
+    font-size: 20px;
+    padding-left: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+
+}
+
+.seguinos a img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 70px;
+}
+
+/* Responsive Tablet*/
+
+@media (max-width:768px){
+
+        /* Header*/
+
+        body{
+            width: 768px;
+            height: 100vh;
+        }
+
+        header{
+            height: 120px;
+        }
+
+        .lisNav li{
+            font-size: 17px;
+            text-indent: 50px;
+        }
+        
+        .lisNav{
+            display: flex;
+            width: max-content;
+        }
+        
+        /* Animacion header*/
+
+        .lisNav li a:hover{
+            font-size: 18px;
+        }
+        .homeLogo{
+            width: 80px;
+            height: 75px;
+        }
+
+        /*menu*/
+
+        .burguerHoff h1{
+            font-size: 30px ;
+        }
+        
+        .burguerHoff p{
+            font-size: 15px ; 
+        }
+            
+        .imgMes{
+            float: left;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .mes h2{
+            font-size: 15px;
+        }
+        
+        .mes p{
+            font-size: 10px;
+        }
+        
+        .imgSor{
+            float: left;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .sorteo h2{
+            font-size: 15px;
+            padding: 10px;
+        }
+        
+        .sorteo p{
+            font-size: 10px;
+    
+        }
+        
+        .sorteo ul li{
+            font-size: 10px;
+        }
+
+    /* Footer*/
+
+    .logoFoot{
+        width: 90px;
+        height: 90px;
+        margin: 10px;
+    }
+
+    .escribinos{ 
+        font-size: 15px;
+        margin: 20px; 
+    }
+
+    .escribinos a img{
+        width: 40px;
+        height: 30px;
+        margin-left: 125px; 
+    }
+
+    .seguinos p{
+        font-size: 15px;
+    }
+
+    .seguinos a img{
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+/* Responsive Mobile  Grid*/
+
+@media (max-width:576px){
+
+    
+    body{
+        width: 576px;
+        height: 100vh;
+    }
+
+    .lisNav{
+        width: 576px;
+    }
+    
+    /* Hamburguesas Grid*/
+
+.burguerMenu{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(7,1fr);
+    grid-template-areas: 
+    "sweetbacon"
+    "cheesebacon"
+    "clasica"
+    "ladeltopo"
+    "bacon"
+    "hoffman"
+    "veggie"
+    ;
+    }
+
+        /* login FLEX*/
+
+        main{
+            height: 100vh;
+        }
+
+        .usuario{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .box{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .botton{
+            margin-bottom: 30px;
+        }
+
+
+    /* Footer */
+
+    .logoFoot{
+        width: 100px;
+    }
+
+    .escribinos a img{
+        width: 80px;
+        height: 50px;
+
+    }
+
+    .escribinos p{
+        font-size: 1px;
+        color: black;
+        margin: 1px;
+    }
+    .seguinos p{
+        font-size: 1px;
+        color: black;
+        margin: 2px;
+    }
+
+
+
+}
+
+
+
+
+    
+
+
+
+
