@@ -14,14 +14,21 @@
 <body>
     <!--BOOSTRAP-->
     <header class="container-fluid">
-        <nav>
-            <ul class="container-fluid lisNav">
-                <li><a href="../pages/hamburguesas.html">HAMBURGUESAS</a></li>
-                <li><a href="./quienessomos.html">¿QUIENES SOMOS?</a></li>
-                <li><a href="../index.html"><img src="../assets/img/logo.png" alt="" class="homeLogo"></a></li>
-                <li><a href="../pages/takeaway.html">TAKE AWAY</a></li>
-                <li><a href="../pages/login.html">LOGIN</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <button class="navbar-toggler botBurg" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse lisNav" id="menu">
+                    <ul class="navbar-nav me-auto listBost">
+                        <li class="nav-item"><a class="nav-link active text-warning" href="../pages/hamburguesas.html">HAMBURGUESAS</a></li>
+                        <li class="nav-item"><a class="nav-link active text-warning" href="./quienessomos.html">¿QUIENES SOMOS?</a></li>
+                        <li class="nav-item"><a class="nav-link active text-warning" href="../index.html"><img src="../assets/img/logo.png" alt="" class="homeLogo"></a></li>
+                        <li class="nav-item"><a class="nav-link active text-warning" href="../pages/takeaway.html">TAKE AWAY</a></li>
+                        <li class="nav-item"><a class="nav-link active text-warning" href="../pages/login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main class="container-fluid fondo">
@@ -31,8 +38,8 @@
             <p class="col-12">@burger.hoff creada por 2 amigos que empezaron en pandenia , el 29 de mayo de 2020,<br> ambos se habían quedado sin trabajo y un día surgió esta idea de hacer hamburguesas a domicilio, <br>
                 Ya van 2 años que vienen trabajando para que sus clientes tengan la mejor vivencia de probar una hamburguesa unica realizadas a  la parrilla,<br> detalle distintivo que les da sabor único y delicioso.</p>
                 </div>      
-                <div>
-            <img src="../assets/img/logoquiensomos.png" alt="logoquiensomos" class="quienesSomosLogo"> 
+                <div class="position-relative ">
+            <img src="../assets/img/logoquiensomos.png" alt="logoquiensomos"  class="position-relative top-50 start-50 translate-middle"> 
                 </div>
         </article>  
     </main>

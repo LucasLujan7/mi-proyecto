@@ -448,6 +448,22 @@ footer{
             font-size: 10px;
         }
 
+            /*TAKE AWAY*/
+
+        .mainTake h1{
+            font-size: 40px;
+        }
+
+        .pedidos li{
+            font-size: 30px;
+        }
+
+        .logos a img{
+            width: 60px;
+            height: 60px;
+        }
+
+        
     /* Footer*/
 
     .logoFoot{
@@ -487,10 +503,6 @@ footer{
     body{
         width: 576px;
         height: 100vh;
-    }
-
-    .lisNav{
-        width: 576px;
     }
     
     /* Hamburguesas Grid*/
@@ -554,16 +566,16 @@ footer{
         color: black;
         margin: 2px;
     }
-
-
-
 }
 
+/* BOOSTRAP QUIENES SOMOS*/
 
+.botBurg{
+    background-color: orange;
+    margin-top: 30px;
+}
 
-
-    
-
-
-
-
+.listBost li{
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.605);
+}
