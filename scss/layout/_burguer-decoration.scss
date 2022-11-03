@@ -1,0 +1,41 @@
+
+
+.burguerMenu{
+    display: grid;
+    grid-template-columns:  repeat(2, 1fr);
+    grid-auto-rows: repeat (4, 1fr );
+    }
+
+.veggie {
+    grid-column: 1 / 3;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .burguerMenu article {
+    margin: 10px;
+  }
+  
+  .imgBurguer {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    float: left;
+  }
+  
+  .textoBurg {
+    h5 {
+      font-size: 30px;
+      margin: 10px;
+    }
+  
+    p {
+      font-size: 20px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .burguerMenu p:hover{
+    transform: scale(1.1);
+    transition: all 0.1s;
+}

@@ -1,0 +1,115 @@
+@media (max-width:768px){
+
+    body {
+        width: 768px;
+        height: 100vh;
+      }
+      
+      header {
+        height: 120px;
+      }
+      
+      .lisNav {
+        li {
+          font-size: 17px;
+          text-indent: 50px;
+        }
+      
+        display: flex;
+        width: max-content;
+      }
+
+      .lisNav li a:hover{
+        font-size: 18px;
+    }
+    .homeLogo{
+        width: 80px;
+        height: 75px;
+    }
+
+    .burguerHoff {
+      h1 {
+        font-size: 30px;
+      }
+    
+      p {
+        font-size: 15px;
+      }
+    }
+    
+    .imgMes {
+      float: left;
+      width: 150px;
+      height: 150px;
+    }
+    
+    .mes {
+      h2 {
+        font-size: 15px;
+      }
+    
+      p {
+        font-size: 10px;
+      }
+    }
+    
+    .imgSor {
+      float: left;
+      width: 150px;
+      height: 150px;
+    }
+    
+    .sorteo {
+      h2 {
+        font-size: 15px;
+        padding: 10px;
+      }
+    
+      p, ul li {
+        font-size: 10px;
+      }
+    }
+
+    .mainTake h1 {
+      font-size: 40px;
+    }
+    
+    .pedidos li {
+      font-size: 30px;
+    }
+    
+    .logos a img {
+      width: 60px;
+      height: 60px;
+    }
+    
+    /* Footer*/
+    
+    .logoFoot {
+      width: 90px;
+      height: 90px;
+      margin: 10px;
+    }
+    
+    .escribinos {
+      font-size: 15px;
+      margin: 20px;
+    
+      a img {
+        width: 40px;
+        height: 30px;
+        margin-left: 125px;
+      }
+    }
+    
+    .seguinos {
+      p {
+        font-size: 15px;
+      }
+    
+      a img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+}

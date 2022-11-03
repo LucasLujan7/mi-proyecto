@@ -1,0 +1,72 @@
+.banner {
+    width: 100%;
+  }
+  
+  .burguerHoff {
+    h1 {
+      font-size: 40px;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    p {
+      font-size: 20px;
+      margin-top: 10px;
+      margin-bottom: 100px;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  
+  .sectionMenu {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .imgMes {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+  }
+  
+  .mes {
+    h2 {
+      font-size: 30px;
+      padding: 10px;
+      font-weight: bold;
+    }
+  
+    p {
+      font-size: 20px;
+      padding: 10px;
+      font-weight: bold;
+    }
+  }
+  
+  .imgSor {
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin-right: 20px;
+  }
+  
+  .sorteo {
+    h2 {
+      font-size: 30px;
+      padding: 10px;
+      font-weight: bold;
+    }
+  
+    p {
+      font-size: 20px;
+      padding: 10px;
+      font-weight: bold;
+    }
+  
+    ul li {
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 290px;
+    }
+  }
